@@ -1,0 +1,223 @@
+/*
+*jaune-orange #ffbd08;
+*rouge foncé #de3732;
+*ver foncé #508365;
+*/
+
+@font-face {
+    font-family: 'LaBelleAurore.ttf';
+    src: url('font/LaBelleAurore.ttf');
+}
+
+@font-face {
+    font-family: 'vanessalovesyou.ttf';
+    src: url('font/vanessalovesyou.ttf');
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.fond_ville {
+    background-image: url('images/fond_ville.jpg');
+    height: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fond {
+    background-image: url('images/fond.jpg');
+    height: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fond2 {
+    background-image: url('images/forever.jpg');
+    height: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fond3 {
+    background-image: url('images/soleil.jpg');
+    height: 100%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    font-family: 'vanessalovesyou.ttf';
+}
+
+.info {
+    width: 250px;
+}
+
+.info-mdp {
+    width: 180px;  
+}
+
+.btn-change {
+    height: 25px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.btn-change-2 {
+    height: 30px;
+    padding: 3px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.btn-change-mdp {
+    position: relative;
+    top: 25px;
+    height: 25px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.btn-disable {
+    position: relative;
+    top: 50px;
+    height: 25px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.link {
+    text-decoration: none;
+    color: #508365; 
+}
+
+.link:hover {
+    text-decoration:none;
+    color: #de3732;
+}
+
+.love_font {
+    font-family: 'LaBelleAurore.ttf';
+}
+
+.inscription {
+	position:absolute;
+    left: 50%;
+    top: 15%;
+    width: 400px;
+    height: 500px;
+    margin-left: -200px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    background-color: rgba(255,255,255, 0.5);
+    background-position: center;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.infos {
+    position:absolute;
+    left: 50%;
+    top: 30%;
+    width: 480px;
+    height: 500px;
+    margin-left: -250px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    background-color: rgba(255,255,255, 0.5);
+    background-position: center;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+.label {
+    width: 100px;  
+}
+
+.champ {
+    width: 200px;
+    border-radius: 3px;
+}
+
+.selected {
+    color: #ffbd08;
+    background-color: black;
+}
+
+.errors {
+    color: #de3732;
+}
+
+.submit {
+    margin-top: 15px;
+}
+
+.filter {
+    padding: 10px;
+    background-image: url('images/fond_filtre.jpg');
+}
+
+.all_profils {
+    position: relative;
+    top: 30px;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.slider {
+   width: 100%;
+   height: 250px;
+   padding:0; margin:0;
+   list-style: none;
+}
+
+.profil {
+   float: left;
+}
+
+.left {
+    position: relative;
+    top: 125px;
+    height: 100%;
+}
+
+.right {
+    position: relative;
+    top: 125px;
+    height: 100%;
+}
+
+.profil {
+    background-image: url('images/profil.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 98%;
+    padding: 20px;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.profil_text {
+    position: relative;
+    top: 45px;
+    left: 100px;
+}
+
+.form {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.non_inscrit {
+    position: relative;
+    top: 200px;
+}
+
+.footer {
+    height: 100px;
+    background-color: white;
+}
